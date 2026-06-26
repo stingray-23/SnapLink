@@ -2,7 +2,7 @@ import time
 from app.services.cache import redis_client
 
 async def is_rate_limited(ip: str, max_requests: int = 20, window_seconds: int = 60) -> bool:
-    key = f"rate:{ip}"
+    key = f"snaplink:rate:{ip}"
     now = time.time()
     window_start = now - window_seconds
 
