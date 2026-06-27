@@ -104,10 +104,10 @@ export default function ShortenForm({ onSuccess }: ShortenFormProps = {}) {
         <div className="p-6 rounded-xl bg-surface border border-border shadow-lg animate-in fade-in slide-in-from-bottom-4 duration-500">
           <h3 className="text-lg font-medium text-text-primary mb-4">Your short URL is ready!</h3>
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <div className="flex-1 w-full bg-background p-4 rounded-lg font-mono text-primary flex items-center justify-between border border-border">
-              <span className="truncate">{result.short_url}</span>
+            <div className="flex-1 min-w-0 w-full bg-background p-4 rounded-lg font-mono text-primary flex items-center justify-between border border-border">
+              <span className="truncate block">{result.short_url}</span>
             </div>
-            <div className="flex gap-2 w-full sm:w-auto">
+            <div className="flex gap-2 w-full sm:w-auto shrink-0">
               <a
                 href={result.short_url}
                 target="_blank"
