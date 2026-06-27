@@ -1,6 +1,6 @@
 # 🔗 SnapLink
 
-![SnapLink Banner](https://via.placeholder.com/1200x400/0F172A/3B82F6?text=SnapLink+-+Modern+URL+Shortener)
+![SnapLink Banner](./banner.png)
 
 **SnapLink** is a modern, high-performance, open-source URL shortener. Built with a sleek interface and a blazingly fast backend, it features a comprehensive analytics dashboard that allows you to instantly track every click, geolocate your audience, and analyze device metrics.
 
